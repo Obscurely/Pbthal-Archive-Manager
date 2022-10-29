@@ -96,7 +96,7 @@ def main():
               c/covers - gets album covers for all the folders present in the music folders (it uses the website vinyl-records.nl), it works well for my needs, but it may not have everything and will tell you when nothing was found. the searches are done using the folder's name.
               a/album - goes in everyfolder is the music folder and does the next steps: generate spectrograms for every song to check if it's a real flac or not, create a .m3u playlist, changes the tags (album, album artist, artist) and finally adds the cover to the song (cover has to be named folder.jpg)
               l/links - redownloads the recordings download links (from file factory), leaving it in here just in case anyone needs it.
-              clean - deletes the folder downloads and music and recreats them, meaning you will lose anything you've downloaded and and extracted
+              clean - deletes the folder downloads and music and recreats them, meaning you will lose anything you've downloaded and and extracted.
               """
         )
         exit()
