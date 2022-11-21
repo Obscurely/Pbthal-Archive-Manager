@@ -5,6 +5,7 @@ import re
 import requests
 import urllib.parse
 
+
 def get_album_cover_link(query: str):
     # conn = http.client.HTTPSConnection("duckduckgo.com")
     # payload = ""

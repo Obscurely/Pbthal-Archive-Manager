@@ -11,7 +11,16 @@ import recording_links
 
 
 def search():
-    query = input("Album to search for: ")
+    # query = input("Album to search for: ")
+    args = sys.argv
+    args.reverse()
+    args.pop()
+    args.pop()
+    args.reverse()
+
+    query = ""
+    for arg in args:
+        query += arg + " "
 
     search_pbthal.search(query)
 
@@ -83,6 +92,10 @@ def links():
 
 
 def main():
+    # create some needed folders
+    os.mkdir("downloads")
+    os.mkdir("music")
+
     args = sys.argv
 
     if len(args) == 1:
