@@ -93,8 +93,11 @@ def links():
 
 def main():
     # create some needed folders
-    os.mkdir("downloads")
-    os.mkdir("music")
+    try:
+        os.mkdir("downloads")
+        os.mkdir("music")
+    except:
+        pass
 
     args = sys.argv
 
