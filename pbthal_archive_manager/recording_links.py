@@ -11,7 +11,7 @@ def download_links():
     except:
         pass
 
-    for line in open("links").readlines():
+    for line in open("archives_links").readlines():
         name = line.split(" ")[0]
         link = line.split(" ")[1]
 
