@@ -1,7 +1,7 @@
 # Pbthal Archive Manager
 
 This is a set of python scripts wrapped in a cli to
-- dowload
+- download
 - extract
 - mass rename
 - make proper albums by changing the tags
